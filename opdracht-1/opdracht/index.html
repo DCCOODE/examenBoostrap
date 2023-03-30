@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdracht 1</title>
+
+    <link rel="stylesheet" href="../../bootstrap/bootstrap-5-0-1.css" />
+    <script defer src="../../bootstrap/bootstrap-5-0-1.js"></script>
+
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+   
+
+      <div class="container p-0">
+        <div class="row">
+          <div class="col-12">
+            <h1>Opdracht 1</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-0">
+        <div class="row">
+          <div class="col-12">
+              <input class="w-100" type="text" name="item-input" id="item-input" placeholder="Nieuw item" />
+            </div>
+         </div>
+      </div>
+
+      <div class="container d-flex flex-start p-0">
+        <div class="row">
+          <div class="col-4">
+            <button class="btn btn-primary m-2 ms-0 " type="button" onclick="itemToevoegen()">Toevoegen</button>
+
+          </div>
+          <div class="col-8">
+            <button class="btn btn-danger m-2" type="button" onclick="itemVerwijderen()">Verwijder laatste item</button>
+          </div>
+        </div>
+      </div>
+
+
+        
+        <div class="container p-0">
+          <div class="row">
+            
+          <ul class="lijst list-unstyled fw-bold" id="lijst">
+              <div class="col-12 border p-2">
+                <li>Een item</li>
+              </div>
+              <div class="col-12 border p-2">
+                <li>Nog een item</li>
+              </div>
+              <div class="col-12 border p-2">
+                <li>Nog een ander item</li>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+
+       
+
+       
+
+        
+      </div>
+    
+  </body>
+</html>
